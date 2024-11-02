@@ -1,10 +1,8 @@
-# UpD
+# UpE
 Our new updater.
 # Programs
 You can update/install:
-- UpD
+- UpE
 - LigmaBalls
 - Project M (soon)
 - MurderBob
-
-with UpD
