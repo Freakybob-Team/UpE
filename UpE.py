@@ -1,11 +1,11 @@
 import requests
-print("Welcome to UpD, our new updater.")
+print("Welcome to UpE, our new updater.")
 print("The update command in LigmaBalls will still work.")
 print("What would you like to update?")
 print("MurderBob")
 print("Project M")
 print("LigmaBalls")
-print("UpD")
+print("UpE")
 program = input("Please select the program you would like to update (CASE-SENSITIVE): ")
 if (program == "Project M"):
     print("I'm pretty sure this is a teaser. Or not. I don't know.")
@@ -86,7 +86,7 @@ if (program == "LigmaBalls"):
             file.close()
     else:
         print('Failed to download file')
-if (program == "UpD"):
+if (program == "UpE"):
     print("We're downloading the update wizard...")
     url = 'https://github.com/Freakybob-Team/UpD/blob/main/UpDate.py?raw=true'
     response = requests.get(url)
