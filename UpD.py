@@ -44,7 +44,7 @@ if (program == "MurderBob"):
     if (version == "2.1"):
         url = 'https://github.com/Freakybob-Team/MurderBob/blob/main/Releases/2.1/MurderBob.zip?raw=true'
         response = requests.get(url)
-        file_Path = 'MurderBob.jar'
+        file_Path = 'MurderBob.zip'
         if response.status_code == 200:
             with open(file_Path, 'wb') as file:
                 file.write(response.content)
@@ -55,7 +55,7 @@ if (program == "MurderBob"):
     if (version == "3"):
         url = 'https://github.com/Freakybob-Team/MurderBob/blob/main/Releases/3/MurderBob3.zip?raw=true'
         response = requests.get(url)
-        file_Path = 'MurderBob.jar'
+        file_Path = 'MurderBob3.zip'
         if response.status_code == 200:
             with open(file_Path, 'wb') as file:
                 file.write(response.content)
@@ -66,7 +66,7 @@ if (program == "MurderBob"):
     if (version == "3.1"):
         url = 'https://github.com/Freakybob-Team/MurderBob/blob/main/Releases/3.1/MurderBob.zip?raw=true'
         response = requests.get(url)
-        file_Path = 'MurderBob.jar'
+        file_Path = 'MurderBob.zip'
         if response.status_code == 200:
             with open(file_Path, 'wb') as file:
                 file.write(response.content)
