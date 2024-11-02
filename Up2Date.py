@@ -1,7 +1,7 @@
 import requests
 import os
 print("Hello! This is the updater for UpE.")
-islegacy == input("Are you updating from UpD? Y/N ")
+islegacy = input("Are you updating from UpD? Y/N ")
 url = 'https://github.com/Freakybob-Team/UpD/blob/main/UpE.py?raw=true'
 response = requests.get(url)
 if (islegacy == "Y"):
