@@ -3,12 +3,22 @@ print("Welcome to UpE, our new updater.")
 print("The update command in LigmaBalls will still work.")
 print("What would you like to update?")
 print("MurderBob")
-print("Project M")
+print("MurderBob Advanced")
 print("LigmaBalls")
 print("UpE")
 program = input("Please select the program you would like to update (CASE-SENSITIVE): ")
-if (program == "Project M"):
-    print("I'm pretty sure this is a teaser. Or not. I don't know.")
+if (program == "MurderBob Advanced"):
+    print("Alright! Downloading...")
+    url = 'https://github.com/Freakybob-Team/murderbobadvanced/blob/main/Code/java/Game.java?raw=true'
+    response = requests.get(url)
+    file_Path = 'MurderBobAdvanced.java'
+    if response.status_code == 200:
+        with open(file_Path, 'wb') as file:
+            file.write(response.content)
+            print('File downloaded successfully')
+            file.close()
+    else:
+        print('Failed to download file')
 if (program == "MurderBob"):
     print("Alright! This will download to the directory this program is in.")
     print("Options:")
@@ -88,7 +98,7 @@ if (program == "LigmaBalls"):
         print('Failed to download file')
 if (program == "UpE"):
     print("We're downloading the update wizard...")
-    url = 'https://github.com/Freakybob-Team/UpD/blob/main/UpDate.py?raw=true'
+    url = 'https://github.com/Freakybob-Team/UpE/blob/main/UpDate.py?raw=true'
     response = requests.get(url)
     file_Path = 'UpDate.py'
     if response.status_code == 200:
