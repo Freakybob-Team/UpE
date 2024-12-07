@@ -1,3 +1,4 @@
+# please use https://github.com/Freakybob-Team-Games/UpE kthxbye
 # UpE
 Our new updater.
 # Programs
