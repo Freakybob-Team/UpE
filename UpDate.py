@@ -2,7 +2,7 @@ import requests
 import os
 print("Hello! This is the updater for UpE.")
 islegacy = input("Are you updating from UpD? Y/N ")
-url = 'https://github.com/Freakybob-Team/UpE/blob/main/UpE.py?raw=true'
+url = 'https://github.com/Freakybob-Team-Games/UpE/blob/main/UpE.py?raw=true'
 response = requests.get(url)
 if (islegacy == "Y"):
     os.remove("UpD.py")
